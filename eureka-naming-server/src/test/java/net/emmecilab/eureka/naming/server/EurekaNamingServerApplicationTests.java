@@ -1,4 +1,4 @@
-package net.emmecilab.registry_service;
+package net.emmecilab.eureka.naming.server;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class RegistryServiceApplicationTests {
+public class EurekaNamingServerApplicationTests {
 
 	@Test
 	public void contextLoads() {

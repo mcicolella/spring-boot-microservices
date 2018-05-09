@@ -1,4 +1,4 @@
-package net.emmecilab.registry_service;
+package net.emmecilab.eureka.naming.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,9 +6,9 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class RegistryServiceApplication {
+public class EurekaNamingServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RegistryServiceApplication.class, args);
+		SpringApplication.run(EurekaNamingServerApplication.class, args);
 	}
 }
