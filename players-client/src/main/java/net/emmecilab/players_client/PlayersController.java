@@ -11,8 +11,8 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class PlayersController {
 
-    @RequestMapping("/players")
-    public String getplayers() {
+    @RequestMapping("/list-players")
+    public String listPlayers() {
         RestTemplate rt = new RestTemplate();
         return rt.getForObject("http://localhost:9090/players", String.class);
     }
