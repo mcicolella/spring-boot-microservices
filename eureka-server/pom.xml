@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>net.emmecilab</groupId>
-	<artifactId>eureka-naming-server</artifactId>
+	<artifactId>eureka-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>eureka-naming-server</name>
+	<name>eureka-server</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
