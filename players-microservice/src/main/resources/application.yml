@@ -2,7 +2,7 @@ spring:
   application:
     name: players-microservice
 server:
-  port: 9090
+  port: 0
 eureka:
   client:
     serviceUrl:
