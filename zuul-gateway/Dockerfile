@@ -9,5 +9,5 @@ RUN mvn -f /usr/src/zuul-gateway/pom.xml clean package
 FROM openjdk:8-jre-alpine
 COPY --from=build /usr/src/zuul-gateway/target/zuul-gateway-0.0.1-SNAPSHOT.jar /usr/zuul-gateway/zuul-gateway-0.0.1-SNAPSHOT.jar  
 
-EXPOSE 8761
+EXPOSE 8085
 ENTRYPOINT ["java", "-jar", "/usr/zuul-gateway/zuul-gateway-0.0.1-SNAPSHOT.jar"]
